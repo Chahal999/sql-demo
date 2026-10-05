@@ -12,7 +12,7 @@ app.MapGet("/", async () =>
     var html = """
     <html>
     <head>
-        <title>Customer Database Demo</title>
+        <title>Customer Database Demo - CI/CD Updated</title>
         <style>
             body { font-family: Arial; margin: 40px; }
             table { border-collapse: collapse; width: 700px; }
@@ -21,7 +21,7 @@ app.MapGet("/", async () =>
         </style>
     </head>
     <body>
-        <h1>Customer Database Demo</h1>
+        <h1>Customer Database Demo - CI/CD Updated</h1>
         <p>Data loaded from Azure SQL Database.</p>
         <table>
         <tr><th>ID</th><th>Name</th><th>Email</th></tr>
